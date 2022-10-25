@@ -1,0 +1,70 @@
+
+
+@import "../node_modules/bootstrap/scss/functions";
+$navbar-light-toggler-border-color: none;
+
+$primary:#5265E1;
+$secondary:  #FA5959;
+$nav-link-color: black;
+$dark:#0f144d;
+$info:$primary;
+#headingOne > button:hover{color: #FA5959;}
+#headingTwo > button:hover{color: #FA5959;}
+#headingThree > button:hover{color: #FA5959;}
+#headingFour > button:hover{color: #FA5959;}
+.btn.btn-primary:hover{color: $primary!important;background: none!important;}
+#navbarSupportedContent > ul > li:nth-child(4) > button:hover{background: transparent!important;color: #FA5959;}
+$nav-tabs-border-color:             none;
+$nav-tabs-border-width:             none;
+$nav-tabs-border-radius:            none;
+$nav-tabs-link-hover-border-color:  none;
+$nav-tabs-link-active-color:        none;
+$nav-tabs-link-active-bg:           none;
+$nav-tabs-link-active-border-color: none;
+
+//NTH CHILD - POSICIONAMIENTO TARJETAS
+a.nav-link.active:hover{
+    color: #FA5959!important;
+}
+#home-tab:hover{
+    color: #FA5959!important;
+}
+#profile-tab:hover{
+    color: #FA5959!important;
+}
+#contact-tab:hover{
+    color: #FA5959!important;
+}
+.tarjetas{
+ 
+    
+      li:nth-child(2) {
+        margin-top: 50px;
+      }
+      
+    
+      :nth-child(3) {
+        margin-top: 100px;
+      }
+}
+.nav-tabs .nav-link.active{
+    border-bottom: solid $secondary 2px !important;
+}
+
+@media(max-width:600px){
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top
+    {background-color: $primary!important;
+    opacity: 0.9!important;}
+    .navbar-nav .show>.nav-link, .navbar-nav .nav-link {
+        color:white!important;
+    }
+    #navbarSupportedContent > ul > li:nth-child(4) > button{background-color: #5265E1!important;border:white solid 2px!important;}
+}
+@import "../node_modules/bootstrap/scss/functions";
+
+
+@import "../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
